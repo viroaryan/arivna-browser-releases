@@ -1,14 +1,14 @@
 # Arivna Browser releases
 
-Official APK downloads of [Arivna Browser](https://arivna.in/) for Android. This repository holds no source code: only release files and their checksums. Download APKs only from the [Releases tab](https://github.com/viroaryan/arivna-browser-releases/releases) of this repository.
+Official APK downloads of Arivna Browser for Android. This repository holds no source code: only release files and their checksums. Download APKs only from the [Releases tab](https://github.com/viroaryan/arivna-browser-releases/releases) of this repository.
 
-Source code: https://github.com/viroaryan/arivna-browser · Website: https://arivna.in/ · Google Play: coming soon.
+Source code: https://github.com/viroaryan/arivna-browser · Google Play: coming soon.
 
 ## Versions
 
 | Version | Date | Requires | Download | SHA-256 |
 |---|---|---|---|---|
-| v1.0.0 | 2026-10-24 | Android 8.0+ (minSdk 26) | [Release v1.0.0](https://github.com/viroaryan/arivna-browser-releases/releases/tag/v1.0.0) | `TBD` |
+| v1.0.0 | 2026-10-24 | Android 8.0+ (minSdk 26) | [Release v1.0.0](https://github.com/viroaryan/arivna-browser-releases/releases/tag/v1.0.0) | `050c18063aa6c916107d18bf508152f76a42e7ae4e13ce725474c180ab5819b5` |
 
 What changed in each version: [CHANGELOG](https://github.com/viroaryan/arivna-browser/blob/HEAD/CHANGELOG.md).
 
@@ -60,3 +60,10 @@ Requires Android 8.0 or later on an ARM (64- or 32-bit) or x86_64 device.
 ## Support
 
 Email **contactus@arivna.com**. Please report security issues there privately, not in public issues.
+
+## Signing certificate
+
+Every official APK is signed with this certificate. Check it with `apksigner verify --print-certs arivna-browser-v1.0.0.apk`:
+
+- Subject: `CN=Arivna Browser, O=Arivna, C=IN`
+- SHA-256 fingerprint: `56:BE:21:31:F1:A1:B9:F5:AE:8A:2D:17:B0:2F:C4:14:89:A4:A4:4B:D1:69:BC:79:DB:74:A9:B3:29:F8:A5:AE`
